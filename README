@@ -1,0 +1,60 @@
+# PharmaApp
+
+**PharmaApp** is an offline **Medical Store Management System** built with the **MERN stack** (MongoDB, Express, React, Node.js) and packaged as a **desktop application using Electron**. It allows store owners to manage inventory, sales, purchases, suppliers, and generate invoices without an internet connection.
+
+---
+
+## Features
+
+- **Inventory Management:** Add, update, and track medicines and products.
+- **Sales & Purchase Management:** Record daily sales and purchases.
+- **Supplier Management:** Add and manage suppliers.
+- **Invoice Generation:** Generate printable invoices for sales.
+- **Backup & Restore:** Create backups of your database.
+- **Offline Support:** Fully functional without internet.
+- **Electron Desktop App:** Cross-platform desktop application for Windows.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** Node.js + Express.js
+- **Database:** MongoDB (local)
+- **Authentication:** JWT
+- **Desktop Packaging:** Electron, Electron Builder
+- **Styling:** CSS, HTML
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/mustu633/Pharma.git
+cd PharmaApp
+Install dependencies
+npm install
+
+Start the app in development
+npm start
+
+This will open the Electron app with backend server running locally.
+
+Build for production
+
+bash
+Copy code
+npm run build
+This will package the app into a Windows executable using Electron Builder.
+
+Environment Variables
+Create a .env file 
+
+
+License
+This project is licensed under the MIT License.
+
+Author
+Ghulam Mustafa
