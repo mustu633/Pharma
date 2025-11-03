@@ -31,9 +31,6 @@
 
 1. **Clone the repository**
 
-```bash
-git clone https://github.com/mustu633/Pharma.git
-cd PharmaApp
 Install dependencies
 npm install
 
@@ -44,8 +41,6 @@ This will open the Electron app with backend server running locally.
 
 Build for production
 
-bash
-Copy code
 npm run build
 This will package the app into a Windows executable using Electron Builder.
 
